@@ -1,0 +1,264 @@
+.wrapper {
+  width: 100%;
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-box {
+  width: 1480px;
+  height: 1250px;
+  background-color: white;
+}
+
+.top-logo {
+  margin-top: 63px;
+  margin-left: 98px;
+  display: flex;
+  justify-content: start;
+}
+
+.top-logo a {
+  text-decoration: none;
+}
+.logo {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 94px;
+
+  color: #000000;
+}
+
+.logo-color {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 94px;
+  color: #4bcaff;
+}
+
+.header-box-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-box {
+  width: 1280px;
+  height: 70px;
+  background-color: #35444f;
+  margin-top: 40px;
+}
+
+.list-position {
+  display: flex;
+  list-style: none;
+}
+
+.list {
+  width: 1280px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-part1 {
+  width: 330px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 160px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.nav-part2 {
+  width: 150px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid white;
+}
+
+.nav-part3 {
+  width: 280px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid white;
+}
+
+.nav-part4 {
+  width: 220px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.nav-part1:hover {
+  background-color: #222f3a;
+}
+.nav-part2:hover {
+  background-color: #222f3a;
+}
+.nav-part3:hover {
+  background-color: #222f3a;
+}
+.nav-part4:hover {
+  background-color: #222f3a;
+}
+
+.list li {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+
+.main {
+  width: 1280px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.sides {
+  width: 1280px;
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+.left-side {
+  width: 25%;
+  height: 400px;
+  margin-top: 50px;
+  color: rgba(0, 0, 0, 0.0001);
+  border: 1px solid #000000;
+}
+.left-menu {
+  max-width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 27px;
+  /* identical to box height, or 100% */
+
+  color: #495863;
+}
+
+.left-menu li {
+  margin-left: 45px;
+  list-style: none;
+}
+
+.left-menu:hover {
+  padding-left: 47px;
+  background-color: #dbdbdb;
+}
+
+.right-side {
+  width: 70%;
+  height: 700px;
+  margin-top: 50px;
+}
+
+.img {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.0001);
+  border: 1px solid #000000;
+}
+
+.img:hover img {
+  transform: scale(1.15);
+}
+
+img {
+  transition: 0.5s;
+}
+.image {
+  max-width: 320px;
+  max-height: 380px;
+}
+
+.text {
+  margin-top: 35px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+
+  color: #2c2c2c;
+}
+
+.footer {
+  width: 1280px;
+  height: 70px;
+  background-color: rgba(99, 105, 110, 0.48);
+  margin: 0 auto;
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bot {
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-down li {
+  margin-right: 73px;
+  list-style: none;
+}
+
+.copyright {
+  margin-right: 40px;
+}
+.footer li {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  /* or 100% */
+
+  color: #010101;
+}
+
+.footer p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  /* or 100% */
+
+  color: #010101;
+}
+
+.nav-down li:hover {
+  color: #3181a6;
+  text-decoration: underline;
+}
